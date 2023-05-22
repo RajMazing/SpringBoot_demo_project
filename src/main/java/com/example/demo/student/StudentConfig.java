@@ -18,8 +18,7 @@ public class StudentConfig {
                     "casey@gmail.com",
                     LocalDate.of(1992,
                             Month.JUNE,
-                            10),
-                    30
+                            10)
             );
 
             Student Joseph = new Student(
@@ -27,8 +26,7 @@ public class StudentConfig {
                     "joseph@gmail.com",
                     LocalDate.of(1993,
                             Month.FEBRUARY,
-                            14),
-                    30
+                            14)
             );
 
             repository.saveAll(
